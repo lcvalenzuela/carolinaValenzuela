@@ -1,0 +1,24 @@
+.pq{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+transition: 3s;
+    &:hover{
+        color: rgb(216, 54, 81);
+        transform: scale(30deg);
+    }
+}
+
+
+.p-3{
+    font-size: 30px;
+    text-align: center;
+}
+.carousel{
+    width: 300px;
+}
+
+.col{
+    font-size: 30px;
+    margin: 30px;
+}
+

@@ -1,0 +1,89 @@
+.logoprin {
+  width: 150px;
+}
+
+.container-fluid {
+  background-color: rgba(255, 192, 203, 0.509);
+  padding: 1%;
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  display: flex;
+}
+
+body {
+  background-color: rgba(128, 0, 128, 0.119);
+  font-family: cursive;
+  align-content: center;
+}
+body .section1, body .section2 {
+  padding: 50px;
+}
+body .section1:hover, body .section2:hover {
+  color: purple;
+}
+body .h1, body h2 {
+  font-size: 25px;
+  text-align: center;
+}
+body .container text-center {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.imagen1, .imagen3, .imagen2 {
+  width: 250px;
+}
+
+.imagen7 {
+  width: 300px;
+}
+
+.imagen8 {
+  width: 500px;
+}
+.imagen8:hover {
+  transform: translate(100px, 95px) rotate(10deg) skew(15deg) scale(0.5);
+  transition: 10s;
+}
+
+footer {
+  background-color: rgba(14, 13, 13, 0.842);
+  color: aqua;
+}
+footer .wss {
+  width: 50px;
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  transition: 2s;
+}
+footer .wss:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+.pq {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 3s;
+}
+.pq:hover {
+  color: rgb(216, 54, 81);
+  transform: scale(30deg);
+}
+
+.p-3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.carousel {
+  width: 300px;
+}
+
+.col {
+  font-size: 30px;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
